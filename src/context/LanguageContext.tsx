@@ -221,8 +221,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       id: 'langgeng-cipta-solusi',
       company: 'Langgeng Cipta Solusi',
       position: language === 'en' 
-        ? 'Internet of Things Developer, Project Manager and Project Engineer' 
-        : 'Internet of Things Developer, Project Manager and Project Engineer',
+        ? 'Internet of Things Developer, Hardware Engineer, 3D CAD Designer, Project Manager, and Project Engineer' 
+        : 'Internet of Things Developer, Hardware Engineer, 3D CAD Designer, Project Manager, and Project Engineer',
       period: language === 'en' ? 'Dec 2022 — Present' : 'Des 2022 — Sekarang',
       location: language === 'en' ? 'Bandung, West Java, Indonesia' : 'Bandung, Jawa Barat, Indonesia',
       description: language === 'en' ? [

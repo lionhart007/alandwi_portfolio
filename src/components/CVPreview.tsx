@@ -284,7 +284,7 @@ export default function CVPreview({ onBack }: CVPreviewProps) {
                   <span className="font-bold text-black text-right">Bandung, West Java</span>
                 </div>
                 <div className="flex justify-between items-baseline flex-wrap text-[12px] sm:text-[12.5px] italic text-[#333333]">
-                  <span>Internet of Things Developer, Project Manager and Project Engineer</span>
+                  <span>Internet of Things Developer, Hardware Engineer, 3D CAD Designer, Project Manager, and Project Engineer</span>
                   <span className="font-normal not-italic text-black text-right">Dec 2022 — Present</span>
                 </div>
 

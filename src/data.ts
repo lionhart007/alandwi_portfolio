@@ -35,7 +35,7 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
   {
     id: 'langgeng-cipta-solusi',
     company: 'Langgeng Cipta Solusi',
-    position: 'Internet of Things Developer, Project Manager and Project Engineer',
+    position: 'Internet of Things Developer, Hardware Engineer, 3D CAD Designer, Project Manager, and Project Engineer',
     period: 'Dec 2022 — Present',
     location: 'Bandung, West Java, Indonesia',
     description: [
