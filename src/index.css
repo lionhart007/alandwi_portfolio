@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-variant: #E5E5E1;
+  --color-on-primary-fixed-variant: #1A1A1A;
+  --color-secondary-container: #F5F5F0;
+  --color-tertiary-container: #E5E5E1;
+  --color-on-secondary: #1A1A1A;
+  --color-on-tertiary-fixed: #1A1A1A;
+  --color-inverse-on-surface: #FDFCFB;
+  --color-surface: #FDFCFB;
+  --color-secondary-fixed: #E5E5E1;
+  --color-on-error: #D32F2F;
+  --color-inverse-primary: #1A1A1A;
+  --color-primary-fixed: #E5E5E1;
+  --color-on-primary: #FDFCFB;
+  --color-surface-container-lowest: #FDFCFB;
+  --color-primary-fixed-dim: #7A7A7A;
+  --color-on-error-container: #FFEBEE;
+  --color-surface-container: #F5F5F0;
+  --color-on-secondary-container: #1A1A1A;
+  --color-surface-dim: #FDFCFB;
+  --color-primary-container: #F5F5F0;
+  --color-on-secondary-fixed-variant: #4A4A4A;
+  --color-surface-container-low: #FDFCFB;
+  --color-error-container: #FFEBEE;
+  --color-outline-variant: #E5E5E1;
+  --color-tertiary-fixed: #E5E5E1;
+  --color-primary: #1A1A1A;
+  --color-surface-container-highest: #E5E5E1;
+  --color-on-surface: #1A1A1A;
+  --color-tertiary-fixed-dim: #7A7A7A;
+  --color-on-primary-fixed: #1A1A1A;
+  --color-surface-bright: #FFFFFF;
+  --color-inverse-surface: #1A1A1A;
+  --color-on-secondary-fixed: #1A1A1A;
+  --color-surface-tint: #1A1A1A;
+  --color-background: #FDFCFB;
+  --color-on-tertiary-fixed-variant: #4A4A4A;
+  --color-secondary: #7A7A7A;
+  --color-on-primary-container: #1A1A1A;
+  --color-on-tertiary-container: #1A1A1A;
+  --color-on-surface-variant: #4A4A4A;
+  --color-error: #D32F2F;
+  --color-on-tertiary: #FDFCFB;
+  --color-secondary-fixed-dim: #7A7A7A;
+  --color-tertiary: #7A7A7A;
+  --color-on-background: #1A1A1A;
+  --color-outline: #B8B8B2;
+  --color-surface-container-high: #F5F5F0;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Fira Code", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Base resets & behavior improvements */
+html {
+  scroll-behavior: smooth;
+  background-color: #FDFCFB;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Glassmorphism Styles - customized for a modern light editorial look */
+.glass {
+  background: rgba(253, 252, 251, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Custom Scroll Reveal Utilities */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scroll-reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Scrollbar customization for a high-end feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(26, 26, 26, 0.15);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(26, 26, 26, 0.3);
+}
+
+/* Keyframe animations for modals and typewriter */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-scale-up {
+  animation: scaleUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Hide scrollbar utility */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Print Styles for CV */
+@media print {
+  @page {
+    size: A4;
+    margin: 10mm 14mm;
+  }
+  .no-print {
+    display: none !important;
+  }
+  body, html {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .print-clean {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
