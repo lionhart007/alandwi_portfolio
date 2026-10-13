@@ -33,11 +33,19 @@ jobs:
         run: npm install
 
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v4
 
       - name: Build
         run: |
-          npm run build -- --base=/alandwi_portfolio.github.io/
+          BASE_PATH="${{ steps.pages.outputs.base_path }}"
+          if [ -z "$BASE_PATH" ] || [ "$BASE_PATH" = "/" ]; then
+            TARGET_BASE="/"
+          else
+            TARGET_BASE="${BASE_PATH%/}/"
+          fi
+          echo "Building with base: $TARGET_BASE"
+          npm run build -- --base="$TARGET_BASE"
           cp dist/index.html dist/404.html
 
       - name: Upload artifact
