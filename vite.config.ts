@@ -4,7 +4,12 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  // Use repository path for GitHub Pages, fallback to relative for AI Studio
+  const isGitHubActions = process.env.GITHUB_ACTIONS === 'true';
+  const base = isGitHubActions ? '/alandwi_portfolio.github.io/' : './';
+
   return {
+    base,
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
