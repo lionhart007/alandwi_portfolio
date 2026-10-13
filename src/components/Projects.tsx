@@ -91,14 +91,15 @@ export default function Projects() {
                   <p className="text-neutral-200 text-xs md:text-sm font-sans line-clamp-3 leading-relaxed text-justify">
                     {project.description}
                   </p>
-                  <div className="flex items-center justify-between pt-2 border-t border-white/10">
-                    <span className="flex items-center gap-1.5 text-[9px] font-bold tracking-wide uppercase text-white/90">
-                      <Award size={13} className="text-white/80 shrink-0" />
-                      <span className="truncate">{t('proj.results')}: {t('proj.results_short')}</span>
+                  <div className="flex items-center justify-between gap-3 pt-3 border-t border-white/15">
+                    <div className="flex items-center gap-1.5 min-w-0 text-[10px] font-bold tracking-wide uppercase text-white/90">
+                      <Award size={13} className="text-secondary shrink-0" />
+                      <span className="truncate">{t('proj.results_short')}</span>
+                    </div>
+                    <span className="shrink-0 flex items-center gap-1 text-white/90 group-hover:text-white text-[10px] font-bold tracking-widest uppercase transition-all duration-300">
+                      <span className="whitespace-nowrap">{t('proj.view_details')}</span>
+                      <ArrowUpRight size={12} className="shrink-0 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </span>
-                    <button className="cursor-pointer shrink-0 flex items-center gap-1 text-white/90 text-[10px] font-bold tracking-widest uppercase hover:text-white transition-all duration-300">
-                      {t('proj.view_details')} <ArrowUpRight size={11} />
-                    </button>
                   </div>
                 </div>
               </div>

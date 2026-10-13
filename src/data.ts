@@ -42,7 +42,7 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
       'Developed high-reliability RTU (Remote Terminal Unit) firmware for real-time sensor data acquisition and smart modem firmware to read and transmit AMI (Advanced Metering Infrastructure) electric meter data across STM32 ARM 32-bit, ESP32, and ATmega microcontrollers, integrating DLMS/COSEM, MQTT, Wi-Fi, and custom fiber-optic protocols.',
       'Designed custom PCB layouts and optimized existing PCB component architectures using EasyEDA and Fusion 360, developing reliable power distribution circuitry and multi-sensor interfaces (tiltmeter, strain gauge, 2D/3D anemometers, accelerometers, cable tension sensors, and LVDT); conducted laboratory and on-site sensor calibrations.',
       'Designed dustproof and waterproof (weatherproof) sensor enclosures tailored to project requirements using Fusion 360, optimizing dimensions and material selection to reduce production costs, and utilized SketchUp to simulate bridge sensor placement and field installation layouts; coordinated with PT ADS for the production of SHMS panel enclosures and supporting equipment, and with PT Pudak Scientific for Smart Meter Like AMI, DCU, and THMS enclosures across design, costing, timelines, and business model formulation.',
-      'Served as Project Manager handling the Sei Wampu Toll Bridge SHMS project from inception to completion, communicating directly with client PT Hutama Karya Indonesia regarding project planning, project permits & site licensing, and final project handover, while handling on-site sensor installation and integration in the field; served as Project Engineer on the Sodongkopo Bridge (Pangandaran) SHMS project for client West Java Provincial Road and Bridge Management Technical Implementation Unit (UPTD Service Region V) handling sensor installation and integration on the bridge from start to finish, supervising device production workflows, DAU panel assembly, QC inspections, and coordinating with PT ADS; served as Sensor Developer for the Merah Putih Bridge (Ambon) SHMS project developing and calibrating the multi-sensor monitoring suite, firmware, and PCB layouts; and conducted comprehensive Factory Acceptance Tests (FAT) and Site Acceptance Tests (SAT) to guarantee all delivered systems functioned flawlessly in strict compliance with client specifications.'
+      'Served as Project Manager handling the Sei Wampu Toll Bridge SHMS project from inception to completion, communicating directly with client PT Hutama Karya Indonesia regarding project planning, project permits & site licensing, and final project handover; served as Project Engineer on the Sodongkopo Bridge (Pangandaran) SHMS project for client West Java Provincial Road and Bridge Management Technical Implementation Unit (UPTD Service Region V); handled on-site server installation, integration of SHMS sensors with the monitoring server, structured power cabling management, Ethernet cabling management, and fiber optic cabling management across bridge sites; supervised device production workflows, DAU panel assembly, QC inspections, and coordinated with PT ADS; served as Sensor Developer for the Merah Putih Bridge (Ambon) SHMS project developing and calibrating the multi-sensor monitoring suite, firmware, and PCB layouts; and conducted comprehensive Factory Acceptance Tests (FAT) and Site Acceptance Tests (SAT) to guarantee all delivered systems functioned flawlessly in strict compliance with client specifications.'
     ]
   },
   {
@@ -120,7 +120,7 @@ export const PROJECTS: Project[] = [
     company: 'Langgeng Cipta Solusi',
     position: 'Project Engineer',
     duration: 'Jun 2026 — Oct 2026',
-    description: 'Served as Project Engineer on the Structural Health Monitoring System (SHMS) project for Sodongkopo Bridge in Pangandaran for client West Java Provincial Road and Bridge Management Technical Implementation Unit (UPTD Service Region V), handling sensor installation and integration on the bridge from start to finish. Supervised device production workflows, DAU panel assembly, and Quality Control (QC) inspections, and coordinated with PT ADS for the production of SHMS panel enclosures and supporting equipment. Designed dustproof and waterproof (weatherproof) sensor enclosures tailored to project requirements using Fusion 360, optimizing dimensions and material selection to reduce production costs, and utilized SketchUp to simulate bridge sensor placement and field installation layouts. Developed custom PCB layouts and optimized existing component architectures using EasyEDA and Fusion 360, calibrated upgraded tiltmeter sensors, engineered strain gauge sensors with tensile sling simulation, and conducted comprehensive Factory Acceptance Tests (FAT) and Site Acceptance Tests (SAT) to ensure all delivered equipment functioned properly according to client specifications.',
+    description: 'Served as Project Engineer on the Structural Health Monitoring System (SHMS) project for Sodongkopo Bridge in Pangandaran for client West Java Provincial Road and Bridge Management Technical Implementation Unit (UPTD Service Region V). Handled on-site server installation, integration of SHMS sensors with the monitoring server, structured power cabling management, Ethernet cabling management, and fiber optic cabling management across the bridge. Supervised device production workflows, DAU panel assembly, and Quality Control (QC) inspections, and coordinated with PT ADS for the production of SHMS panel enclosures and supporting equipment. Designed dustproof and waterproof (weatherproof) sensor enclosures tailored to project requirements using Fusion 360, optimizing dimensions and material selection to reduce production costs, and utilized SketchUp to simulate bridge sensor placement and field installation layouts. Developed custom PCB layouts and optimized existing component architectures using EasyEDA and Fusion 360, calibrated upgraded tiltmeter sensors, engineered strain gauge sensors with tensile sling simulation, and conducted comprehensive Factory Acceptance Tests (FAT) and Site Acceptance Tests (SAT) to ensure all delivered equipment functioned properly according to client specifications.',
     coverImage: 'https://drive.google.com/file/d/1eX4dum6No_3jzOR9EekQAnrFmjgJpiPA/view?usp=drive_link',
     gallery: [
       'https://drive.google.com/file/d/1OdAPWQIMzN41L__-7aaWTT7WdvcGLszN/view?usp=drive_link',
@@ -135,10 +135,15 @@ export const PROJECTS: Project[] = [
       'https://drive.google.com/file/d/1kuMA2ttsQkSB8nrlPjM9ggmRQ8d9-Wgl/view?usp=drive_link'
     ],
     videos: [],
-    technologies: ['Tiltmeter', 'Strain Gauge', 'DAU & Gateway Panel', 'Vendor Coordination (PT ADS)', 'RTU & DAU Assembly & QC', 'Sensor Calibration', 'Bridge Simulation (SketchUp)', 'Fusion 360 Enclosures', 'FAT & SAT Testing', 'Sensor Installation & Integration'],
-    skills: ['Project Engineering', 'Vendor Coordination (PT ADS)', 'Sensor Installation & Integration', 'Weatherproof Enclosure Design', 'Bridge Simulation (SketchUp)', 'Tiltmeter Calibration', 'Strain Gauge & Transducer Design', 'DAU Panel Assembly & QC', 'FAT & SAT Execution', 'Bridge SHMS Integration'],
+    technologies: ['Server Installation', 'SHMS Sensor-Server Integration', 'Power Cabling Management', 'Ethernet Cabling Management', 'Fiber Optic Cabling Management', 'Tiltmeter', 'Strain Gauge', 'DAU & Gateway Panel', 'Vendor Coordination (PT ADS)', 'RTU & DAU Assembly & QC', 'Sensor Calibration', 'Bridge Simulation (SketchUp)', 'Fusion 360 Enclosures', 'FAT & SAT Testing'],
+    skills: ['Project Engineering', 'Server Installation & Setup', 'SHMS Sensor-Server Integration', 'Power Cabling Management', 'Ethernet Cabling Management', 'Fiber Optic Cabling Management', 'Vendor Coordination (PT ADS)', 'Sensor Installation & Integration', 'Weatherproof Enclosure Design', 'Bridge Simulation (SketchUp)', 'Tiltmeter Calibration', 'Strain Gauge & Transducer Design', 'DAU Panel Assembly & QC', 'FAT & SAT Execution'],
     responsibilities: [
       'Served as Project Engineer on the Sodongkopo Bridge SHMS project for client West Java Provincial Road and Bridge Management Technical Implementation Unit (UPTD Service Region V), handling sensor installation and system integration on the bridge from start to finish.',
+      'Handled SHMS monitoring server installation, operating system environment setup, and centralized database configuration for live sensor data transmission and storage.',
+      'Integrated bridge SHMS sensors (tiltmeters, strain gauges, and DAU units) with the central monitoring server for reliable real-time data ingestion.',
+      'Executed structured power cabling management, ensuring clean electrical routing, voltage regulation, grounding, and surge protection for field DAU panels and sensor nodes.',
+      'Carried out Ethernet cabling management, structuring network patch panels, industrial switches, RJ45 terminations, and secure local area network (LAN) communication.',
+      'Performed fiber optic cabling management across the bridge, overseeing optical line routing, optical splicing/patching, media conversion, and attenuation verification for high-speed data transmission.',
       'Supervised device production workflows, DAU panel assembly, and Quality Control (QC) inspections.',
       'Coordinated with PT ADS for the precision production of SHMS panel enclosures and supporting equipment.',
       'Designed dustproof and waterproof (weatherproof) sensor enclosures tailored to project requirements using Fusion 360, optimizing dimensions and material selection to reduce production costs.',
@@ -146,10 +151,9 @@ export const PROJECTS: Project[] = [
       'Designed custom PCB layouts and optimized existing component architectures using EasyEDA and Fusion 360 for sensor interfaces.',
       'Developed upgraded tiltmeter sensors with software updates and executed high-precision instrument calibrations.',
       'Engineered strain gauge sensors with redesigned transducers and conducted tension tests on steel wire slings to simulate real-world hanger stress.',
-      'Conducted Factory Acceptance Testing (FAT) and Site Acceptance Testing (SAT) to ensure all delivered equipment functioned flawlessly according to client specifications.',
-      'Designed Data Acquisition Unit (DAU) & gateway panels, verifying clean power distribution and dependable sensor data telemetry.'
+      'Conducted Factory Acceptance Testing (FAT) and Site Acceptance Testing (SAT) to ensure all delivered equipment functioned flawlessly according to client specifications.'
     ],
-    results: 'Successfully delivered the project for client West Java Provincial Road and Bridge Management Technical Implementation Unit (UPTD Service Region V), coordinated enclosure production with PT ADS, supervised DAU panel assembly and QC, calibrated sensors, executed FAT & SAT, and managed sensor installation and integration from start to finish across Sodongkopo bridge in Pangandaran.',
+    results: 'Successfully delivered the project for client West Java Provincial Road and Bridge Management Technical Implementation Unit (UPTD Service Region V), completed server installation and sensor-server integration, managed structured power, ethernet, and fiber-optic cabling with zero loss, coordinated enclosure production with PT ADS, supervised DAU panel assembly and QC, calibrated sensors, and executed FAT & SAT across Sodongkopo bridge in Pangandaran.',
     category: 'embedded'
   },
   {
@@ -158,7 +162,7 @@ export const PROJECTS: Project[] = [
     company: 'Langgeng Cipta Solusi',
     position: 'Project Manager & IoT Engineer',
     duration: 'Aug 2024 — Oct 2025',
-    description: 'Served as Project Manager handling the Structural Health Monitoring System (SHMS) project for the Sei Wampu Toll Bridge in Medan, North Sumatera from inception to completion. Supervised device production workflows, DAU panel assembly, and Quality Control (QC) inspections. Developed high-reliability RTU (Remote Terminal Unit) firmware and custom PCB layouts for sensor data acquisition with fiber-optic communication protocols. Coordinated directly with PT ADS for the precision production of SHMS panel enclosures and supporting equipment. Designed dustproof and waterproof sensor enclosures in Fusion 360 to optimize production costs, and simulated sensor placement using SketchUp. Communicated directly with client PT Hutama Karya Indonesia regarding project planning, project permits & site licensing, and final project handover, handled on-site sensor installation and integration in the field from start to finish, and conducted comprehensive Factory Acceptance Tests (FAT) and Site Acceptance Tests (SAT) to guarantee all delivered systems functioned flawlessly in strict compliance with client specifications.',
+    description: 'Served as Project Manager handling the Structural Health Monitoring System (SHMS) project for the Sei Wampu Toll Bridge in Medan, North Sumatera from inception to completion. Handled on-site server installation, integration of bridge SHMS sensors with the central monitoring server, and comprehensive cable management (power cabling management, Ethernet cabling management, and fiber optic cabling management). Supervised device production workflows, DAU panel assembly, and Quality Control (QC) inspections. Developed high-reliability RTU (Remote Terminal Unit) firmware and custom PCB layouts for sensor data acquisition with fiber-optic communication protocols. Coordinated directly with PT ADS for the precision production of SHMS panel enclosures and supporting equipment. Designed dustproof and waterproof sensor enclosures in Fusion 360 to optimize production costs, and simulated sensor placement using SketchUp. Communicated directly with client PT Hutama Karya Indonesia regarding project planning, project permits & site licensing, and final project handover, handled on-site sensor installation and integration in the field from start to finish, and conducted comprehensive Factory Acceptance Tests (FAT) and Site Acceptance Tests (SAT) to guarantee all delivered systems functioned flawlessly in strict compliance with client specifications.',
     coverImage: 'https://drive.google.com/file/d/1jb-6DpCjal-kxVj5lv_7-3_IxaGkUJmR/view?usp=drive_link',
     gallery: [
       'https://drive.google.com/file/d/1jS2I5bYWE2y9ShaYW4sROhBUBPO_AV0u/view?usp=drive_link',
@@ -173,10 +177,15 @@ export const PROJECTS: Project[] = [
       'https://drive.google.com/file/d/1u6Kf_Au_axPaIfkkNE_dIjT6Mdux6MDP/view?usp=drive_link'
     ],
     videos: [],
-    technologies: ['Project Management', 'Client Coordination (PT Hutama Karya Indonesia)', 'Vendor Coordination (PT ADS)', 'Fiber Optic Protocol', 'RTU Firmware & PCB Design', 'DAU Panel Assembly & QC', 'Fusion 360 Enclosures', 'SketchUp Simulation', 'FAT & SAT Testing', 'Project Permits & Handover', 'Field Sensor Installation & Integration'],
-    skills: ['Project Management', 'Client Communication (PT Hutama Karya Indonesia)', 'Vendor Coordination (PT ADS)', 'FAT & SAT Execution', 'Weatherproof Enclosure Design', 'SketchUp Simulation', 'Project Planning & Handover', 'Project Permits & Licensing', 'Fiber Optic Data Transmission', 'DAU Panel Assembly & QC', 'Field Sensor Installation & Integration'],
+    technologies: ['Server Installation', 'SHMS Sensor-Server Integration', 'Power Cabling Management', 'Ethernet Cabling Management', 'Fiber Optic Cabling Management', 'Project Management', 'Client Coordination (PT Hutama Karya Indonesia)', 'Vendor Coordination (PT ADS)', 'Fiber Optic Protocol', 'RTU Firmware & PCB Design', 'DAU Panel Assembly & QC', 'Fusion 360 Enclosures', 'SketchUp Simulation', 'FAT & SAT Testing', 'Field Sensor Installation & Integration'],
+    skills: ['Project Management', 'Server Installation & Setup', 'SHMS Sensor-Server Integration', 'Power Cabling Management', 'Ethernet Cabling Management', 'Fiber Optic Cabling Management', 'Client Communication (PT Hutama Karya Indonesia)', 'Vendor Coordination (PT ADS)', 'FAT & SAT Execution', 'Weatherproof Enclosure Design', 'SketchUp Simulation', 'Project Planning & Handover', 'DAU Panel Assembly & QC', 'Field Sensor Installation & Integration'],
     responsibilities: [
       'Handled the Sei Wampu Toll Bridge SHMS project end-to-end from inception to completion as Project Manager.',
+      'Handled on-site SHMS server installation, server rack mounting, and continuous monitoring server deployment for bridge operations.',
+      'Integrated bridge SHMS sensors and field RTUs with the central monitoring server for real-time sensor data transmission and monitoring.',
+      'Managed structured power cabling, ensuring reliable electrical distribution, backup power connectivity, and proper surge protection across all monitoring panels.',
+      'Executed Ethernet cabling management across bridge inspection galleries, network switches, and data acquisition hubs.',
+      'Performed fiber optic cabling management, routing armored optical fiber cables, terminating connections, and validating low-attenuation transmission across long spans.',
       'Communicated directly with client PT Hutama Karya Indonesia regarding project planning, project permits & site licensing, and final project handover.',
       'Supervised device production workflows, Data Acquisition Unit (DAU) panel assembly, and Quality Control (QC) inspections.',
       'Coordinated with PT ADS for the precision production of SHMS panel enclosures and supporting equipment.',
@@ -185,7 +194,7 @@ export const PROJECTS: Project[] = [
       'Conducted Factory Acceptance Testing (FAT) and on-site Site Acceptance Testing (SAT) to ensure all delivered instruments and monitoring equipment operated flawlessly in compliance with client requirements.',
       'Handled on-site sensor installation and system integration in the field from start to finish, field cable routing, and final commissioning.'
     ],
-    results: 'Successfully managed the Sei Wampu Toll Bridge SHMS project end-to-end, coordinated directly with client PT Hutama Karya Indonesia and vendor PT ADS, executed FAT & SAT, established fiber-optic sensor telemetry, and completed on-site sensor installation and integration with zero transmission loss.',
+    results: 'Successfully managed the Sei Wampu Toll Bridge SHMS project end-to-end, executed server installation and sensor-server integration, managed power, Ethernet, and fiber-optic cabling with zero loss, coordinated directly with client PT Hutama Karya Indonesia and vendor PT ADS, and executed FAT & SAT.',
     category: 'embedded'
   },
   {
@@ -194,7 +203,7 @@ export const PROJECTS: Project[] = [
     company: 'Langgeng Cipta Solusi',
     position: 'Sensor Developer',
     duration: 'Jun 2023 — Apr 2024',
-    description: 'Served as Sensor Developer for the Merah Putih Bridge Structural Health Monitoring System (SHMS) project in Ambon, Maluku. Developed custom firmware and PCB layouts using EasyEDA and Fusion 360 for multi-sensor suites (3D anemometer, accelerometer, tiltmeter, strain gauge, cable tension, temperature, and ATRH) with Wi-Fi telemetry. Supervised device production workflows, DAU panel assembly, and Quality Control (QC) inspections, coordinated with PT ADS for the precision production of enclosure panels and supporting SHMS equipment, engineered dedicated power distribution circuitry, and performed precise sensor calibrations.',
+    description: 'Served as Sensor Developer for the Merah Putih Bridge Structural Health Monitoring System (SHMS) project in Ambon, Maluku. Developed custom firmware and PCB layouts using EasyEDA and Fusion 360 for multi-sensor suites (3D anemometer, accelerometer, tiltmeter, strain gauge, cable tension, temperature, and ATRH) with Wi-Fi communication. Supervised device production workflows, DAU panel assembly, and Quality Control (QC) inspections, coordinated with PT ADS for the precision production of enclosure panels and supporting SHMS equipment, engineered dedicated power distribution circuitry, and performed precise sensor calibrations.',
     coverImage: 'https://drive.google.com/file/d/1ju3A42NAItJd2cvBESB1wt6oM_Gi-3gC/view?usp=drive_link',
     gallery: [
       'https://drive.google.com/file/d/10AXZbARgiQEqkB3fR8nNOfFDK_fAvF6p/view?usp=drive_link',
@@ -217,7 +226,7 @@ export const PROJECTS: Project[] = [
       'Engineered dedicated power distribution circuitry and cabling infrastructure to deliver clean, uninterrupted power to all bridge sensors.',
       'Conducted laboratory and field calibration for tiltmeter and cable tension accelerometer sensors to ensure exact measurement accuracy.'
     ],
-    results: 'Successfully coordinated enclosure production with PT ADS, supervised DAU panel assembly and QC, and developed and calibrated multi-sensor firmware with custom Wi-Fi telemetry and stable power distribution on Merah Putih Bridge in Ambon.',
+    results: 'Successfully coordinated enclosure production with PT ADS, supervised DAU panel assembly and QC, and developed and calibrated multi-sensor firmware with custom Wi-Fi communication and stable power distribution on Merah Putih Bridge in Ambon.',
     category: 'embedded'
   },
   {
@@ -278,7 +287,7 @@ export const PROJECTS: Project[] = [
     company: 'Langgeng Cipta Solusi',
     position: 'CAD 3D Designer & IoT Systems Engineer',
     duration: '',
-    description: 'Coordinated with PT Pudak Scientific for the production of smart meter like AMI and Data Collector Unit (DCU) enclosures, managing the entire pipeline from 3D CAD enclosure design, production costing and quotation, manufacturing timeline scheduling, to business model formulation. Engineered rugged protective enclosures using Fusion 360 and SketchUp, optimizing designs to reduce production costs, and routed energy consumption data to central MQTT brokers for automated telemetry.',
+    description: 'Coordinated with PT Pudak Scientific for the production of smart meter like AMI and Data Collector Unit (DCU) enclosures, managing the entire pipeline from 3D CAD enclosure design, production costing and quotation, manufacturing timeline scheduling, to business model formulation. Engineered rugged protective enclosures using Fusion 360 and SketchUp, optimizing designs to reduce production costs, and routed energy consumption data to central MQTT brokers for automated data transmission.',
     coverImage: 'https://drive.google.com/file/d/1PaHpA4GJM-R3ZgKW9zPsWY8WxMVuOB2T/view?usp=drive_link',
     gallery: [
       'https://drive.google.com/file/d/1Y_LOahWWeWSTY9D-HTE9SzBcgddgPKa9/view?usp=drive_link',
@@ -290,7 +299,7 @@ export const PROJECTS: Project[] = [
     ],
     videos: [],
     technologies: ['Vendor Coordination (PT Pudak Scientific)', 'Costing & Business Model', 'Production Timeline Scheduling', 'Cost-Optimized Enclosures', 'Fusion 360 / SketchUp / 3D CAD', '3D Enclosure Design', 'DCU (Data Collector Unit)', 'MQTT Protocol', 'Prepaid Smart Meter'],
-    skills: ['CAD 3D Modeling', 'Enclosure Engineering', 'Cost Optimization', 'Vendor Coordination (PT Pudak Scientific)', 'Production Costing & Pricing', 'Business Model Formulation', 'Manufacturing Timelines', 'MQTT Telemetry'],
+    skills: ['CAD 3D Modeling', 'Enclosure Engineering', 'Cost Optimization', 'Vendor Coordination (PT Pudak Scientific)', 'Production Costing & Pricing', 'Business Model Formulation', 'Manufacturing Timelines', 'MQTT Communication'],
     responsibilities: [
       'Coordinated with PT Pudak Scientific for the manufacturing of smart meter like AMI and DCU enclosures covering 3D design, unit production pricing, manufacturing lead times, and business model formulation.',
       'Engineered 3D protective enclosures using Fusion 360 and SketchUp, optimizing dimensions and material selection to reduce production costs and upgrade meters to AMI standards.',
@@ -298,7 +307,7 @@ export const PROJECTS: Project[] = [
       'Streamed energy consumption data from prepaid smart meters to central servers via MQTT protocol.',
       'Monitored operational status and connectivity of smart meters deployed with Data Collector Units in the field.'
     ],
-    results: 'Successfully partnered with PT Pudak Scientific to establish unit pricing, production timelines, and business models while modeling custom cost-optimized 3D enclosures for prepaid smart meters & DCUs and streaming live energy telemetry via MQTT.',
+    results: 'Successfully partnered with PT Pudak Scientific to establish unit pricing, production timelines, and business models while modeling custom cost-optimized 3D enclosures for prepaid smart meters & DCUs and streaming live energy data transmission via MQTT.',
     category: 'cad'
   },
   {
